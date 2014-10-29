@@ -60,7 +60,6 @@ def find_seam(img, energy):
             minval = lastRow[p]
             minIndex = p
 
-    # print lastRow
     return minval, minIndex, sOfIJ
     pass
 
@@ -134,7 +133,7 @@ def main():
     >>>print minval
     0.488050766739
     """
-    for i in range(50):
+    for i in range(50): #Plot 50 Seams
         energy = dual_gradient_energy(img)
         minval, minIndex, sOfIJ = find_seam(img, energy)
         img = plot_seam(img, minIndex, sOfIJ)
@@ -143,7 +142,7 @@ def main():
     title('Seam Plot')
     img = imread('givenImg.png')
     img = img_as_float(img)
-    for i in range(50):
+    for i in range(50): #Delete 50 Seams
         energy = dual_gradient_energy(img)
         minval, minIndex, sOfIJ = find_seam(img, energy)
         print minval
