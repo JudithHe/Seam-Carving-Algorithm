@@ -17,3 +17,4 @@ e.	Calculate min element from the last row and get its index.
 	
 The algorithm is based on a dynamic programming approach. It is very optimal approach compared to Djakstra’s shortest path algorithm.
 The running time of my algorithm is O(rows*columns).
+You may check the output of the program in the Issues section.
