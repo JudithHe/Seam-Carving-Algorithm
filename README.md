@@ -1,4 +1,4 @@
-Seam-Carving-Algorithm
+Content Aware Image Resizing
 ======================
 I have written a program in python to implement Seam Carving algorithm using Dynamic Programming.
 
